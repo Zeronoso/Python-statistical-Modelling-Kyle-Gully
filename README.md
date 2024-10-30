@@ -21,6 +21,8 @@ Finally, I worked on creating a regression model. The results indicated a weak, 
 ## Results
 Using the CityBikes, Foursquare, and Yelp API coverage of downtown Vancouver, BC Canada. I created a model to attempt to predict the ratings of coffee shops based on the number of nearby bikes available.
 the regression models results indicates a weak, but positive relationship between nearby bikes available and ratings.
+![Screenshot 2024-10-30 091310](https://github.com/user-attachments/assets/379e438d-f22f-4650-bd62-e28a69fd9498)
+![Screenshot 2024-10-30 085838](https://github.com/user-attachments/assets/a497d258-4bbf-4c90-a548-3aeab2ff2767)
 
 ## Challenges 
 grabbing data on yelp was a struggle with its limited calls per day.
