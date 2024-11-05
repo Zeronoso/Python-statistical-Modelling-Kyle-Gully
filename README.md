@@ -10,7 +10,8 @@ Afterwards, I placed the responses into a dataframe. Which I saved into a csv fi
 
 Note I had to do data normalization for the ratings as Yelp was based on a total rating scale of 5 while FourSquare was on a total rating scale of 10.
 
-After all the information was parsed we combined them all into a single csv file and created a visualization using a scatterplot with a regression line 
+After all the information was parsed I combined them all into a single csv file After all the information was parsed, I combined them all into a single csv file and cleaned the combined dataset from any extreme outliers, duplictates, and checked for any important missing values.
+Afterwards I created a visualization using a scatterplot with a regression line 
 with the Y column as the ratings tab with the X row being the number of bikes. 
 
 Afterwords I placed the findings into an SQLITE database that has been included in this repository for future usage.
@@ -23,6 +24,10 @@ Using the CityBikes, Foursquare, and Yelp API coverage of downtown Vancouver, BC
 the regression models results indicates a weak, but positive relationship between nearby bikes available and ratings.
 ![Screenshot 2024-10-30 091310](https://github.com/user-attachments/assets/379e438d-f22f-4650-bd62-e28a69fd9498)
 ![Screenshot 2024-10-30 085838](https://github.com/user-attachments/assets/a497d258-4bbf-4c90-a548-3aeab2ff2767)
+
+Although there is only a weak correlation between nearby available bikes and ratings. Even a small increase in bike availability can increase average ratings. Therefore, increasing the potential
+for business growth. Coffee shop owners can use these insights for future decision making, such as partnering with bike-sharing companies to improve their visibility and/or invest in nearby bike parking spaces
+to attract more customers.
 
 ## Challenges 
 grabbing data on yelp was a struggle with its limited calls per day.
